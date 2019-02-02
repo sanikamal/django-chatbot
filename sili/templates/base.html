@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <script type="text/javascript" src="/static/js/dev-vue.js"></script>
+    {% block css %} {% endblock %} {% block js %}{% endblock %}
+</head>
+
+<body style="background-color: #eecfcf;">
+    <nav class="navbar navbar-light bg-info">
+        <span class="navbar-brand mb-0 display-1">Sili</span>
+    </nav>
+    {% block content %}{% endblock %}
+</body>
+
+</html>

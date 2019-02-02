@@ -1,0 +1,64 @@
+.top-padding {
+    margin-top: 10px;
+}
+
+.user-message {
+    background-color: rgba(0, 67, 255, 0.33);
+}
+
+.chat-message {
+    background-color: rgba(128, 0, 95, 0.35);
+}
+
+.send-btn {
+    position: absolute;
+    top: 18px;
+    font-size: 34px;
+    color: grey;
+    right: 20px;
+}
+
+.send-btn:hover {
+    color: rgb(255, 0, 0);
+}
+
+#text-box {
+    position: relative;
+    bottom: 8px;
+    /* width: 100%; */
+}
+
+#text-box textarea {
+    border: 2px solid;
+    font-style: italic;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.navbar {
+    background-color: #0006;
+}
+
+#app .card {
+    margin-bottom: 5px;
+}
+
+#app p {
+    margin-bottom: 0px;
+}
+
+.card-body {
+    padding: .8rem;
+    font-style: italic;
+    /* font-weight: bold; */
+    color: currentColor;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    padding: 0px;
+    font-style: italic;
+    font-weight: bold;
+    color: gold;
+}
